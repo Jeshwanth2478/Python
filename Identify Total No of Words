@@ -1,0 +1,6 @@
+x=input("Enter any sentence: ")
+c=0
+for i in range(len(x)-1):
+    if x[i]==" " and x[i+1]!=" ":
+        c=c+1
+print("The total words: " ,c+1)
